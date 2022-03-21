@@ -1,0 +1,126 @@
+@import 'variables';
+
+div.beforeCard {
+    @include Display(flex, center, center);
+
+    height: 100vh;
+}
+
+div.card {
+    @include StyleWH(80%, 88%);
+
+    background-color: $color1;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+
+    aside {
+        position: relative;
+
+        img.background {
+            @include StyleWH(500px, 460px);
+
+            position: relative;
+        }
+
+        img.womanOnline {
+            @include Position(absolute, 2em, 4em);
+        }
+
+        img.box {
+            @include Position(absolute, 10em, 23em);
+
+            z-index: 1;
+        }
+    }
+
+    main.faq {
+        h1 {
+            font-size: 2rem;
+
+            margin: 1.1em 1.2em;
+
+            font-weight: 700;
+        }
+
+        article.questions {
+
+            div.question {
+                @include Display(flex, space-between , center);
+                @include StyleWH(100%, 40%);
+
+                p{
+                    padding: 1.2em 7em 1em 2.2em;
+
+                    font-size: 1rem;
+
+                    font-weight: 400;
+
+                    &:hover {
+                        color: $color4;
+
+                        cursor: pointer;
+                    }
+                }
+
+                p.questionResponse {
+                    color: $color5;
+
+                    font-weight: 700;
+                }
+
+                img {
+                    @include StyleWH(1%, 1.4%);
+
+                    position: fixed;
+                    right: 13em;
+
+                    cursor: pointer;
+                }
+            }
+
+            p.response {
+                width: 80%;
+
+                font-size: 0.8rem;
+
+                color: $color2;
+
+                font-weight: 400;
+
+                padding-top: 0.1em;
+                padding-left: 3em;
+                padding-bottom: 1.8em;
+            }
+        }
+
+        div.separator {
+            border-bottom: 1px solid $color3;
+
+            position: fixed;
+            
+            opacity: 0.2;
+
+            width: 32%;
+
+            margin-left: 2em;
+        }
+
+        img.arrowUp {
+            transform: rotate(180deg);
+        }
+
+        div.footer {
+            position: fixed;
+
+            font-size: 0.7rem;
+
+            padding-top: 8em;
+        }
+    }
+
+}
+
+@import 'responsive';

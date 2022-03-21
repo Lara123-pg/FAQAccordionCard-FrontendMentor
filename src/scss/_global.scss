@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    font-size: 18px;
+
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+
+    font-family: 'Kumbh Sans', sans-serif;
+
+    overflow: hidden;
+}

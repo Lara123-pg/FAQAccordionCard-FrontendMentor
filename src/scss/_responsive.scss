@@ -1,0 +1,60 @@
+@media (max-width: 1000px) {
+    div.card {
+        @include StyleWH(400px, 560px);
+
+        display: flex;
+        flex-direction: column;
+
+        overflow: visible;
+
+        aside {
+            position: relative;
+
+            img.background {
+                @include StyleWH(260px, 108px);
+                @include Position(relative, 2em, -4em);
+
+                
+            }
+
+            img.womanOnline {
+                @include StyleWH(290px, 180px);
+                @include Position(absolute, -3em, 3em);
+            }
+
+            img.box {
+                @include StyleWH(110px, 100px);
+                @include Position(absolute, 1em, 13em);
+            }
+        }
+
+        main.faq {
+            h1 {
+                text-align: center;
+            }
+
+            article.questions {
+                div.question {
+                   p {
+                       font-size: 0.9rem;
+                   }
+
+                   img {
+                       @include StyleWH(12px, 10px);
+
+                       position: relative;
+                       right: 3em;
+                   }
+                }
+
+                p.response {
+                    font-size: 0.7rem;
+                }
+            }
+
+            div.separator {
+                width: 320px;
+            }
+        }   
+    }
+}

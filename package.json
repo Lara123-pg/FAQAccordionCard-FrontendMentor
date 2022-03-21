@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
 
-  "homepage": "https://github.com/Lara123-pg/FAQAccordionCard-FrontendMentor",
+  "homepage": "./",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

@@ -1,8 +1,8 @@
 {
+  "homepage": "https://lara123-pg.github.io/FAQAccordionCard-FrontendMentor",
   "name": "faqaccordioncard",
   "private": true,
   "version": "0.1.0",
-  "homepage": "https://lara123-pg.github.io/FAQAccordionCard-FrontendMentor/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

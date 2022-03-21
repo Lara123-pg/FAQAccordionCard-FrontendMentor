@@ -28,7 +28,7 @@ Logo em seguida, o projeto estará em seu editor para ser executado.
 
 # Projeto
 
-FAQ Accordion Card é um desafio da plataforma FrontendMentor, que tem o objetivo de treinar os conceitos Frontend. E para que essa página fosse desenvolvida, foi utilizado ReactJS juntamento com o JavaScript e o Sass(Pré-processador CSS).
+FAQ Accordion Card é um desafio da plataforma FrontendMentor, que tem o objetivo de treinar os conceitos Frontend. E para que essa página fosse desenvolvida, foi utilizado ReactJS juntamente com o JavaScript e o Sass(Pré-processador CSS).
 
 # Autor
 

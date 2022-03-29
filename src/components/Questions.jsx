@@ -8,9 +8,13 @@ export function Questions(props) {
 
     return(
         <>
-            <article className='questions'>
+            <div className='questions'>
                     <div className='question'>
-                        <p className={`${showResponse ? 'questionResponse' : ''}`}>{props.question}</p>
+                        {showResponse ? 
+                            <p onClick={setShowResponse(!showResponse)} className={`${showResponse ? 'questionResponse' : ''}`}>{props.question}</p>
+                        :
+                            ''
+                        }
 
                         {showResponse ? 
                             <img onClick={() => setShowResponse(!showResponse)} className='arrowUp' src={arrowDown} alt="Ícone de uma seta para cima"/>
@@ -24,7 +28,7 @@ export function Questions(props) {
                     :
                         ''
                     }
-            </article>
+            </div>
             
             <div className='separator'></div>
        </>
